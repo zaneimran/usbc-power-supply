@@ -1,9 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2024-02-02T23:35:13.576Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="n-O00vJd3mwmOzyxct_M" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-02T23:35:38.525Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="WhjoOYwrPPwjY-4rCZUr" version="23.1.1" type="github">
   <diagram name="Page-1" id="Txj2-_UUIDkLUanixChO">
     <mxGraphModel dx="1002" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="qTQtSf9-8AtXLaWMBva1-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qTQtSf9-8AtXLaWMBva1-2" target="qTQtSf9-8AtXLaWMBva1-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qTQtSf9-8AtXLaWMBva1-2" value="USB C PD" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qTQtSf9-8AtXLaWMBva1-3" value="NRF" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="310" width="120" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="qTQtSf9-8AtXLaWMBva1-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qTQtSf9-8AtXLaWMBva1-5" target="qTQtSf9-8AtXLaWMBva1-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="430" />
+              <mxPoint x="400" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qTQtSf9-8AtXLaWMBva1-5" value="ADC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qTQtSf9-8AtXLaWMBva1-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qTQtSf9-8AtXLaWMBva1-7" target="qTQtSf9-8AtXLaWMBva1-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qTQtSf9-8AtXLaWMBva1-7" value="Input Buffer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qTQtSf9-8AtXLaWMBva1-8" value="Current Sense" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qTQtSf9-8AtXLaWMBva1-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qTQtSf9-8AtXLaWMBva1-10" target="qTQtSf9-8AtXLaWMBva1-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qTQtSf9-8AtXLaWMBva1-10" value="Input Buffer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qTQtSf9-8AtXLaWMBva1-11" value="Adjustable PSU 1V8 - 12V" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="240" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qTQtSf9-8AtXLaWMBva1-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="qTQtSf9-8AtXLaWMBva1-8" target="qTQtSf9-8AtXLaWMBva1-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
